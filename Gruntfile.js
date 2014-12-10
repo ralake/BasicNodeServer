@@ -2,7 +2,8 @@ module.exports = function(grunt) {
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
     jshint: {
-      test: './test/*'
+      test: './test/*',
+      server: './server.js'
     },
 
     mocha_casperjs: {
@@ -24,7 +25,8 @@ module.exports = function(grunt) {
 
     watch: {
       scripts: {
-        files: ['**/*.js'],
+        files: ['./views/*',
+                './test/*'],
         tasks: ['jshint'],
         options: {
           spawn: false,
