@@ -1,0 +1,28 @@
+{
+  "name": "node-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Benc93/node-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Benc93/node-server/issues"
+  },
+  "homepage": "https://github.com/Benc93/node-server",
+  "devDependencies": {
+    "casper-chai": "^0.2.1",
+    "casperjs": "^1.1.0-beta3",
+    "chai": "^1.10.0",
+    "grunt-mocha-casperjs": "^1.4.1",
+    "mocha": "^2.0.1",
+    "mocha-casperjs": "^0.5.3",
+    "phantomjs": "^1.9.12"
+  }
+}
